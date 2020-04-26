@@ -1,12 +1,7 @@
 #include <iostream>
-#include <cstdio>
-#include <cstdlib>
-#include <cstring>
 #include <algorithm>
 #include <vector>
 #include <map>
-#include <cmath>
-#include <queue>
 using namespace std;
 #define MAX_N 20000
 #define MAX_M 100000
