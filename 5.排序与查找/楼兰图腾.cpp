@@ -1,5 +1,5 @@
 /*************************************************************************
-    > File Name: 树状数组.cpp
+    > File Name: 楼兰图腾.cpp
     > Author: ltw
     > Mail: 3245849061@qq.com 
     > Created Time: Sun 24 May 2020 03:57:26 PM CST
@@ -30,8 +30,8 @@ int main() {
 	cin >> n;
 	for (int i = 1; i <= n; i++) {
 		cin >> a;
-		cout << S(a) << endl;//输出对应标记数组
-		add(a, 1, n);//对应标记数组标记为1
+		cout << S(a) << endl;//输出对应标记数组中的值
+		add(a, 1, n);//对应标记数为1
 	}
 	for (int i = 1; i <= n; i++) {
 		cout << i << ":"  << c[i] << " " << S(i) - S(i - 1) << endl;
